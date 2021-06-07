@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #30281e;
+}
+
+.login {
+    width: 320px;
+    height: 420px;
+    padding: 30px 10px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: papayawhip;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 1px 1px 15px 5px;
+}
+
+.Htext {
+    padding: 20px;
+    text-align: center;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(250, 205, 121);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover,
+.login input[type="submit"]:focus {
+    cursor: pointer;
+    background: #fcc110ec;
+    color: #000;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.login a:hover {
+    color: #ffc107;
+}
+
+.remember {
+    margin: 12px auto;
+    width: 40%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#remember {
+    width: 14px;
+    height: 12px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.signup a {
+    color: royalblue;
+    font-size: 16px;
+}
+
+.alert {
+    background-color: seashell;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    font-size: large;
+}
+
+.errors {
+    color: red;
+}
+
+.errors a {
+    color: blue;
+    font-size: 16px;
+}

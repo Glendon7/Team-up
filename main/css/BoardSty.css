@@ -1,0 +1,150 @@
+.mainpg {
+    position: relative;
+    top: 6vh;
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.title {
+    margin-left: 100px;
+    margin-right: 13 0px;
+}
+
+h3 {
+    margin-left: 60px;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #eee;
+}
+
+.new-issue {
+    display: block;
+    margin-right: 200px;
+    text-align: end;
+    margin-top: -34px;
+}
+
+.new-issue a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card {
+    display: inline-block;
+    flex-direction: row;
+    width: 20rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 2px burlywood;
+    border-color: burlywood;
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(245, 244, 235, 0.541);
+    cursor: pointer;
+}
+
+#status {
+    width: 25rem;
+}
+
+#inner-card {
+    margin: 10px;
+    padding: 12px;
+    margin-left: 40px;
+}
+
+#card-col-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.board {
+    display: grid;
+    grid-gap: 13px;
+    grid-template-rows: max-content auto;
+    justify-content: center;
+}
+
+.board-cols::-webkit-scrollbar {
+    display: none;
+}
+
+.board-cols {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.board-cols {
+    display: grid;
+    grid-auto-columns: 277px;
+    grid-auto-flow: column;
+    grid-gap: 13px;
+    overflow: scroll;
+}
+
+.board-col {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.status {
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+    border-bottom-style: ridge;
+    border-color: rgb(134, 104, 62);
+    border-width: 1px;
+}
+
+.col {
+    background-color: rgb(235, 236, 240);
+    border-radius: 3px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.tasks {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, .25);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    cursor: grab;
+}
+
+.tasks:active {
+    cursor: grabbing;
+}
+
+.add-tasks {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.alert {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ui-slider-range {
+    background: green;
+}
+
+.percent {
+    color: green;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    border: none;
+}

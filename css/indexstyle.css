@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd280;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.intro {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    text-align: center;
+    color: #774e19;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.intro svg {
+    display: block;
+}
+
+.up {
+    background-color: #ffd280;
+    margin: 0;
+    margin-bottom: -5px;
+}

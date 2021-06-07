@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5.9vh;
+    background-color: #ffd280;
+}
+
+.logo {
+    width: 14vh;
+    height: 29%;
+    margin: 0px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.regis {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+}
